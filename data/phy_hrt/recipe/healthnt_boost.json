@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "dnd",
+      "ete",
+      "ded"
+    ],
+    "key": {
+      "e": {
+        "item": "minecraft:apple"
+      },
+      "n": {
+        "item": "minecraft:iron_ingot"
+      },
+      "d": {
+        "item": "minecraft:coal"
+      },
+      "t": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_golden_apple",
+      "components": {
+        "minecraft:custom_model_data": 1301002,
+        "minecraft:item_name": "\"Health Ripper\"",
+        "minecraft:custom_data": "{health_downgrade:1}",
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "count": 1
+    }
+  }

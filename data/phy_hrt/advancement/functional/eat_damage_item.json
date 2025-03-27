@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_golden_apple"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": "{damage_upgrade:1}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "phy_hrt:consumed_damage_upgrade"
+    }
+}

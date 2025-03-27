@@ -1,0 +1,31 @@
+{
+   "parent": "phytons_hearts:mainhearts",
+   "display": {
+       "icon": {
+           "id": "minecraft:enchanted_golden_apple",
+           "components": {
+               "minecraft:custom_model_data": 1301001
+           }
+       },
+       "title": "Totally Worth It",
+       "description": "It only cost a fortune",
+       "frame": "challenge",
+       "show_toast": true,
+       "announce_to_chat": true
+   },
+   "criteria": {
+       "requirement": {
+           "trigger": "minecraft:consume_item",
+           "conditions": {
+               "item": {
+                   "items": [
+                       "minecraft:enchanted_golden_apple"
+                   ],
+                   "predicates": {
+                       "minecraft:custom_data": "{health_upgrade:1,player_heart:0}"
+                   }
+               }
+           }
+       }
+   }
+}

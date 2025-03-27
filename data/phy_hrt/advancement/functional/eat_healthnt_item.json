@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_golden_apple"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": "{health_downgrade:1}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "phy_hrt:consumed_health_downgrade"
+    }
+}

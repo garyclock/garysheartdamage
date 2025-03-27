@@ -1,0 +1,1 @@
+$execute as @s run attribute @s minecraft:generic.attack_damage base set $(newdamage)

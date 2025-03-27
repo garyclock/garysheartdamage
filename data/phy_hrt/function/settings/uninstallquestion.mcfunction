@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Click to confirm?: ","color":"red"},{"text":"[SET] ","color":"blue","clickEvent":{"action":"run_command","value":"/function phy_hrt:settings/uninstall"},"hoverEvent":{"action":"show_text","value":"Are you sure?"}}]

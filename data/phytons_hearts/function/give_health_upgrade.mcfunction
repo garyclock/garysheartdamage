@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_golden_apple[minecraft:custom_data="{health_upgrade:1,player_heart:0}", minecraft:custom_model_data=1301001,minecraft:item_name="\"Health Upgrade\""]

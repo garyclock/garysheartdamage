@@ -1,0 +1,1 @@
+$execute as @s run attribute @s minecraft:generic.max_health base set $(newhealth)

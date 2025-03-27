@@ -1,0 +1,1 @@
+tellraw @a [{"selector":"@s"},{"color":"red","text":" has ripped out one of their hearts."}]

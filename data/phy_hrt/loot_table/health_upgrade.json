@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "set_custom_data",
+                "tag": "{health_upgrade:1}"
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{player_heart:1}"
+              },
+              {
+                "function": "set_custom_model_data",
+                "value": 1301001
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": [{"selector": "@s"}, {"text":"'s Heart"}]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

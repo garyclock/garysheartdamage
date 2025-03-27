@@ -1,0 +1,25 @@
+{
+  "parent": "phytons_hearts:heart_palpitations",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple",
+      "components": {
+        "minecraft:custom_model_data": 1301002
+      }
+    },
+    "title": "Danger is my middle name",
+    "description": "Reduce your max hearts all the way to 1",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "onehp": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "phy_hrt:advancement_rewards/onehp"
+  }
+}

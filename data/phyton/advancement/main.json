@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "components": {
+          "minecraft:profile": {
+            "id": [
+              1641180752,
+              1760119709,
+              -1454474078,
+              -1522243550
+            ],
+            "properties": [
+              {
+                "name": "textures",
+                "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDUwNTAwMjU0NywKICAicHJvZmlsZUlkIiA6ICI2MWQyNmU1MDY4ZTk0YjlkYTk0ZTdjYTJhNTQ0NjgyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaHl0b25fTFAiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTYzZWYwODU2NmY1ZjFjZTY5ZWZlYjg0YWEzNTkxNmQ3ZTg0YTZhODQ2MzZjMWM3M2YyNDZlYmE0NjBjNWM2MyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0="
+              }
+            ]
+          }
+        }
+      },
+      "title": "Phytons Datapacks",
+      "description": "https://modrinth.com/user/Phyton",
+      "background": "minecraft:textures/block/cracked_deepslate_tiles.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

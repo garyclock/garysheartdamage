@@ -1,0 +1,21 @@
+{
+    "parent": "phyton:main",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple",
+            "components": {
+                "minecraft:custom_model_data": 1301001
+            }
+        },
+        "title": "Phytons Hearts",
+        "description": "Thanks for installing <3",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+ }

@@ -1,0 +1,1 @@
+tellraw @a [{"selector":"@s"},{"color":"gold","text":" has gained extra damage."}]

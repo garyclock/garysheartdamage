@@ -1,0 +1,1 @@
+execute as @a at @s[scores={deathCount=1}] run function phy_hrt:checkdeath
